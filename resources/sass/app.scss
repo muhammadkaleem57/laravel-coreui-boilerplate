@@ -1,0 +1,37 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include media-breakpoint-up($breakpoint) {
+    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+    @each $prop, $abbrev in (width: w, height: h) {
+      @each $size, $length in $sizes {
+        .#{$abbrev}#{$infix}-#{$size} { #{$prop}: $length !important; }
+      }
+    }
+  }
+}
+
+// Custom
+@import "custom";
+
+// Icons
+@import '~simple-line-icons/css/simple-line-icons.css';
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+
+// Coreui
+@import '~@coreui/coreui/dist/css/coreui.min.css';
+@import '~@coreui/icons/css/all.min.css';
+
+// Chart Js
+@import '~chart.js/dist/Chart.css';
+
+
+// styles
+@import 'styles.css';

@@ -1,0 +1,41 @@
+label{
+    color: #6c757d !important;
+}
+.dropdown-menu-right.show{
+    position: absolute !important;
+}
+
+.modal-title, .btn-dark, .btn-danger{
+    text-transform: capitalize;
+}
+.btn-dark.btn-warning {
+    color: #ffffff !important;
+    background-color: #E0A800 !important;
+    border-color: #E0A800 !important;
+}
+.table-pagination svg {
+    width: 26px;
+}
+.table-pagination{
+    margin-bottom: 30px;
+}
+.table-pagination .flex-1{
+    display: none;
+}
+.table-pagination .cursor-default {
+    background-color: #eeeeee52 !important;
+    color: #a8a7a7 !important;
+    cursor: not-allowed;
+}
+.badge{
+    font-size: 14px !important;
+}
+.cp{
+    cursor: pointer;
+}
+
+::selection{
+    background-color: #3C4B64;
+    color: #ffffff;
+}
+
