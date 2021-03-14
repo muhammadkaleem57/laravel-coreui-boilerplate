@@ -3,8 +3,8 @@
 ![snap1]()
 ## Contents
 - [Getting Started](#getting-started)
-- [Requirements](#reguirements)
-- [Installation](#download-install)
+- [Requirements](#requirements)
+- [Installation](#installation)
 ## Getting Started
 CoreUI Bootstrap Admin Template is based on CoreUI Components Library with beautifully handcrafted UI Components designed by team of coreui. It will be a perfect solution for your system. You will get some laravel stuff.
 - Laravel 8 
