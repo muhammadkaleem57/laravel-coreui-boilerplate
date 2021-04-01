@@ -20,7 +20,7 @@ CoreUI Bootstrap Admin Template is based on CoreUI Components Library with beaut
 - 
 ## Installation
 Clone project & run given bellow commands
-- Make new .env file if you are on ubuntu just run this commant cp .env-example .env
+- Make new .env file if you are on ubuntu just run this command cp .env-example .env
 - composer install
 - php artisan key:generate
   After that update database name in .env file
